@@ -1,16 +1,18 @@
 #!/bin/bash
 
-# udpate, upgrade
+# udpate and upgrade aptitude
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-# insatll essentials
-sudo apt-get install git -y
-sudo apt-get install htop -y
+# system essentials
+sudo apt-get install postfix -y
 sudo apt-get install default-jre -y
 sudo apt-get install exuberant-ctags -y
-sudo apt-get install nodejs npm -y
 sudo apt-get install build-essential -y
+
+# git, htop
+sudo apt-get install git -y
+sudo apt-get install htop -y
 
 # python / pip
 sudo apt-get install python-pip -y
@@ -18,17 +20,18 @@ sudo apt-get install python-dev -y
 sudo pip install --upgrade pip
 sudo pip install --upgrade virtualenv
 
-# use latest node
+# node / npm
+sudo apt-get install nodejs npm -y
 sudo npm install nave -g
 sudo nave usemain 4.1.1
+sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 # extensions
 sudo npm install forever -g
 sudo npm insatll js-beautify -g
 sudo npm install jscs -g
 
-# alias node to nodejs
-sudo ln -s /usr/bin/nodejs /usr/bin/node
-
-# dotfiles
-git clone git@github.com:wellsjo/dotfiles.git ~/.dotfiles && source ~/.dotfiles/bash/profile && wells_install
+# install dotfiles
+git clone git@github.com:wellsjo/dotfiles.git ~/.dotfiles
+source ~/.dotfiles/bash/profile
+wells_install
