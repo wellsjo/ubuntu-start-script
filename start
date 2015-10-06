@@ -21,7 +21,6 @@ sudo pip install --upgrade pip
 sudo pip install --upgrade virtualenv
 
 # node / npm
-sudo apt-get install npm -y
 wget https://raw.githubusercontent.com/isaacs/nave/master/nave.sh
 sudo bash nave.sh usemain 4.1.1
 rm -f nave.sh
