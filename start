@@ -22,7 +22,7 @@ sudo pip install --upgrade virtualenv
 
 # node / npm
 wget https://raw.githubusercontent.com/isaacs/nave/master/nave.sh
-sudo bash nave.sh usemain 4.1.1
+sudo nave usemain $(nave latest)
 rm -f nave.sh
 
 # extensions
