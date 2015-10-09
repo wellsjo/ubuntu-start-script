@@ -6,6 +6,7 @@ sudo apt-get upgrade -y
 
 # system essentials
 sudo apt-get install postfix -y
+sudo apt-get install tree -y
 sudo apt-get install default-jre -y
 sudo apt-get install exuberant-ctags -y
 sudo apt-get install build-essential -y
