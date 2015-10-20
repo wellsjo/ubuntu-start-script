@@ -20,6 +20,7 @@ sudo apt-get install python-pip -y
 sudo apt-get install python-dev -y
 sudo pip install --upgrade pip
 sudo pip install --upgrade virtualenv
+sudo pip install --upgrade ohmu
 
 # node / npm
 wget https://raw.githubusercontent.com/isaacs/nave/master/nave.sh
