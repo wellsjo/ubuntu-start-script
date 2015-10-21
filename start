@@ -24,7 +24,7 @@ sudo pip install --upgrade ohmu
 
 # node / npm
 wget https://raw.githubusercontent.com/isaacs/nave/master/nave.sh
-sudo nave usemain $(nave latest)
+sudo nave usemain $(nave stable)
 rm -f nave.sh
 
 # extensions
