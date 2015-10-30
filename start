@@ -29,6 +29,7 @@ rm -f nave.sh
 
 # extensions
 sudo npm install forever -g
+sudo npm install serve -g
 sudo npm insatll js-beautify -g
 sudo npm install jscs -g
 
