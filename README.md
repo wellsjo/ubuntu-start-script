@@ -3,5 +3,5 @@ This script sets up an ubuntu box with all my preferences and configurations.  I
 
 # One Line Install
 ```bash
-wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start && bash start && rm start;
+curl https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start | bash
 ```
