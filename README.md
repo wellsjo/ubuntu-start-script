@@ -1,7 +1,7 @@
 # Ubuntu Boilerplate Script
-This script sets up an ubuntu box with all my preferences and configurations.  It instsall things like git, htop, build-essential, my dotfiles, and some commonly used programming languages.  It's a great starting place for an ubuntu box.
+This script is intended to set up an Ubuntu box for development with all my preferences and configurations.  It instsall things like git, htop, build-essential, my dotfiles, and some commonly used programming languages.
 
-# One Line Install
+### Install
 ```bash
 curl https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start | bash
 ```
