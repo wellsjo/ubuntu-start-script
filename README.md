@@ -1,4 +1,4 @@
-# Ubuntu Boilerplate Script
+# Ubuntu Boilerplate
 This script is intended to set up an Ubuntu box for development with all my preferences and configurations.  It instsall things like git, htop, build-essential, my dotfiles, and some commonly used programming languages.
 
 ### Install
