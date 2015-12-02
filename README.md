@@ -17,6 +17,7 @@ sudo apt-get install build-essential -y
 
 # git, htop
 sudo apt-get install git -y
+sudo apt-get install git-extras -y
 sudo apt-get install htop -y
 
 # python / pip
