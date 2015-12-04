@@ -47,7 +47,5 @@ wells_install
 
 ### Install
 ```bash
-wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start;
-chmod +x start && ./start && rm -f start
-
+wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start && chmod +x start && ./start && rm -f start
 ```
