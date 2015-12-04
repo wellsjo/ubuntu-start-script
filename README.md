@@ -1,6 +1,12 @@
 # Ubuntu Boilerplate
 This script is intended to set up an Ubuntu box for development with all my preferences and configurations.  It instsall things like git, htop, build-essential, my dotfiles, and some commonly used programming languages.
 
+### Install
+```bash
+wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start && chmod +x start && ./start && rm -f start
+```
+
+### Script
 ```bash
 #!/bin/bash
 
@@ -43,9 +49,4 @@ sudo npm install nixar -g
 git clone git@github.com:wellsjo/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/bash/profile
 wells_install
-```
-
-### Install
-```bash
-wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start && chmod +x start && ./start && rm -f start
 ```
