@@ -6,7 +6,7 @@ This script is intended to set up an Ubuntu box for development with all my pref
 wget https://raw.githubusercontent.com/wellsjo/ubuntu-boilerplate/master/start && chmod +x start && ./start && rm -f start
 ```
 
-### Script
+**start.sh**
 ```bash
 #!/bin/bash
 
