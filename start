@@ -42,4 +42,4 @@ source ~/.dotfiles/bash/profile
 wells_install
 
 # create .localprofile
-alias l="ls -lha --color="auto"" > .localprofile
+echo alias l=\"ls -lha --color=\"auto\"\" > .localprofile
