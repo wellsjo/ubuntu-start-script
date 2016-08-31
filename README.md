@@ -48,5 +48,5 @@ sudo npm install nixar -g
 # install dotfiles
 git clone git@github.com:wellsjo/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/bash/profile
-wells_install
+install_dotfiles
 ```
